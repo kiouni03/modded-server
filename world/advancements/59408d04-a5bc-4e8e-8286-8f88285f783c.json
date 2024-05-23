@@ -1,0 +1,55 @@
+{
+  "dungeons_arise:wda_root": {
+    "criteria": {
+      "WDA": "2024-05-21 15:08:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2024-05-21 15:08:28 +0000"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_infested_temple": {
+    "criteria": {
+      "location0": "2024-05-21 15:10:46 +0000"
+    },
+    "done": true
+  },
+  "paraglider:recipes/misc/cosmetic/paraglider": {
+    "criteria": {
+      "has_paragliders": "2024-05-21 15:24:14 +0000"
+    },
+    "done": true
+  },
+  "paraglider:paraglider": {
+    "criteria": {
+      "paraglider": "2024-05-21 15:24:14 +0000"
+    },
+    "done": true
+  },
+  "paraglider:recipes/misc/cosmetic/deku_leaf": {
+    "criteria": {
+      "has_paragliders": "2024-05-21 15:24:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:old_growth_pine_taiga": "2024-05-21 15:51:01 +0000",
+      "minecraft:taiga": "2024-05-21 15:36:49 +0000",
+      "minecraft:dark_forest": "2024-05-21 15:29:37 +0000",
+      "minecraft:jagged_peaks": "2024-05-21 15:36:13 +0000",
+      "minecraft:old_growth_spruce_taiga": "2024-05-21 15:29:36 +0000"
+    },
+    "done": false
+  },
+  "dungeons_arise:find_small_blimp": {
+    "criteria": {
+      "location0": "2024-05-22 01:55:32 +0000"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}
