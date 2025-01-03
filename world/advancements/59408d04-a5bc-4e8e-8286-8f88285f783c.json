@@ -1594,6 +1594,7 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:zombified_piglin": "2025-01-03 15:48:17 +0000",
       "minecraft:husk": "2025-01-03 06:36:01 +0000",
       "minecraft:zombie": "2025-01-02 12:09:54 +0000",
       "minecraft:drowned": "2025-01-03 03:21:51 +0000",
@@ -5483,9 +5484,27 @@
     },
     "done": true
   },
-  "bbb:recipes/acacia_lantern": {
+  "minecraft:recipes/food/pumpkin_pie": {
     "criteria": {
-      "has_torch": "2025-01-03 12:09:39 +0000"
+      "has_pumpkin": "2025-01-03 09:50:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pumpkin_seeds": {
+    "criteria": {
+      "has_pumpkin": "2025-01-03 09:50:37 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/pumpkin_soup": {
+    "criteria": {
+      "has_any_ingredient": "2025-01-03 09:50:37 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/slicing/pumpkin_seeds_from_pumpkin": {
+    "criteria": {
+      "has_pumpkin": "2025-01-03 09:50:37 +0000"
     },
     "done": true
   },
@@ -5501,39 +5520,9 @@
     },
     "done": true
   },
-  "refurbished_furniture:recipes/decorations/blue_toilet": {
-    "criteria": {
-      "has_dye": "2025-01-03 11:13:48 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/combat/diamond_chestplate": {
     "criteria": {
       "has_diamond": "2025-01-03 10:06:16 +0000"
-    },
-    "done": true
-  },
-  "bbb:recipes/bamboo_lantern": {
-    "criteria": {
-      "has_torch": "2025-01-03 12:09:39 +0000"
-    },
-    "done": true
-  },
-  "bbb:recipes/cherry_lantern": {
-    "criteria": {
-      "has_torch": "2025-01-03 12:09:39 +0000"
-    },
-    "done": true
-  },
-  "bbb:recipes/dark_oak_lantern": {
-    "criteria": {
-      "has_torch": "2025-01-03 12:09:39 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/lectern": {
-    "criteria": {
-      "has_book": "2025-01-03 11:24:09 +0000"
     },
     "done": true
   },
@@ -5543,9 +5532,135 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/diamond_hoe": {
+    "criteria": {
+      "has_diamond": "2025-01-03 10:06:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_shovel": {
+    "criteria": {
+      "has_diamond": "2025-01-03 10:06:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_helmet": {
+    "criteria": {
+      "has_diamond": "2025-01-03 10:06:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diamond_block": {
+    "criteria": {
+      "has_diamond": "2025-01-03 10:06:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_diamond": {
+    "criteria": {
+      "diamond": "2025-01-03 10:06:16 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/combat/diamond_knife": {
+    "criteria": {
+      "has_diamond": "2025-01-03 10:06:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_leggings": {
+    "criteria": {
+      "has_diamond": "2025-01-03 10:06:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_boots": {
+    "criteria": {
+      "has_diamond": "2025-01-03 10:06:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_axe": {
+    "criteria": {
+      "has_diamond": "2025-01-03 10:06:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/breed_an_animal": {
+    "criteria": {
+      "bred": "2025-01-03 10:29:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/bred_all_animals": {
+    "criteria": {
+      "minecraft:sheep": "2025-01-03 10:29:46 +0000"
+    },
+    "done": false
+  },
   "handcrafted:recipes/misc/white_sheet": {
     "criteria": {
       "has_white_sheet": "2025-01-03 10:31:59 +0000"
+    },
+    "done": true
+  },
+  "comforts:sleeping_bag_white": {
+    "criteria": {
+      "has_white_wool": "2025-01-03 10:31:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_bed": {
+    "criteria": {
+      "has_white_wool": "2025-01-03 10:31:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/painting": {
+    "criteria": {
+      "has_wool": "2025-01-03 10:31:59 +0000"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/white_cushion": {
+    "criteria": {
+      "has_white_cushion": "2025-01-03 10:31:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_carpet": {
+    "criteria": {
+      "has_white_wool": "2025-01-03 10:31:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_banner": {
+    "criteria": {
+      "has_white_wool": "2025-01-03 10:31:59 +0000"
+    },
+    "done": true
+  },
+  "comforts:hammock_white": {
+    "criteria": {
+      "has_white_wool": "2025-01-03 10:31:59 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/slicing/blue_dye_from_cornflower": {
+    "criteria": {
+      "has_cornflower": "2025-01-03 11:13:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/blue_dye_from_cornflower": {
+    "criteria": {
+      "has_cornflower": "2025-01-03 11:13:44 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/decorations/blue_toilet": {
+    "criteria": {
+      "has_dye": "2025-01-03 11:13:48 +0000"
     },
     "done": true
   },
@@ -5558,12 +5673,6 @@
   "refurbished_furniture:recipes/decorations/blue_kitchen_storage_cabinet_from_dyeing": {
     "criteria": {
       "has_dye": "2025-01-03 11:13:48 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/writable_book": {
-    "criteria": {
-      "has_book": "2025-01-03 11:24:09 +0000"
     },
     "done": true
   },
@@ -5582,42 +5691,6 @@
   "handcrafted:recipes/misc/blue_bowl": {
     "criteria": {
       "has_blue_bowl": "2025-01-03 11:13:48 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/slicing/blue_dye_from_cornflower": {
-    "criteria": {
-      "has_cornflower": "2025-01-03 11:13:44 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/diamond_hoe": {
-    "criteria": {
-      "has_diamond": "2025-01-03 10:06:16 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/diamond_shovel": {
-    "criteria": {
-      "has_diamond": "2025-01-03 10:06:16 +0000"
-    },
-    "done": true
-  },
-  "bbb:recipes/crimson_lantern": {
-    "criteria": {
-      "has_torch": "2025-01-03 12:09:39 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/pumpkin_pie": {
-    "criteria": {
-      "has_pumpkin": "2025-01-03 09:50:37 +0000"
-    },
-    "done": true
-  },
-  "minecraft:husbandry/breed_an_animal": {
-    "criteria": {
-      "bred": "2025-01-03 10:29:46 +0000"
     },
     "done": true
   },
@@ -5651,63 +5724,15 @@
     },
     "done": true
   },
-  "comforts:sleeping_bag_white": {
-    "criteria": {
-      "has_white_wool": "2025-01-03 10:31:59 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/dye_blue_carpet": {
     "criteria": {
       "has_needed_dye": "2025-01-03 11:13:48 +0000"
     },
     "done": true
   },
-  "minecraft:husbandry/bred_all_animals": {
-    "criteria": {
-      "minecraft:sheep": "2025-01-03 10:29:46 +0000"
-    },
-    "done": false
-  },
-  "minecraft:recipes/combat/diamond_helmet": {
-    "criteria": {
-      "has_diamond": "2025-01-03 10:06:16 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/blue_dye_from_cornflower": {
-    "criteria": {
-      "has_cornflower": "2025-01-03 11:13:44 +0000"
-    },
-    "done": true
-  },
-  "handcrafted:recipes/misc/stackable_book": {
-    "criteria": {
-      "has_stackable_book": "2025-01-03 11:24:09 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/dye_blue_bed": {
     "criteria": {
       "has_needed_dye": "2025-01-03 11:13:48 +0000"
-    },
-    "done": true
-  },
-  "bbb:recipes/spruce_lantern": {
-    "criteria": {
-      "has_torch": "2025-01-03 12:09:39 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/diamond_block": {
-    "criteria": {
-      "has_diamond": "2025-01-03 10:06:16 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/white_bed": {
-    "criteria": {
-      "has_white_wool": "2025-01-03 10:31:59 +0000"
     },
     "done": true
   },
@@ -5729,39 +5754,9 @@
     },
     "done": true
   },
-  "minecraft:story/mine_diamond": {
-    "criteria": {
-      "diamond": "2025-01-03 10:06:16 +0000"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/misc/constructing/blue_kitchen_sink": {
     "criteria": {
       "has_blue_dye": "2025-01-03 11:13:48 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/combat/diamond_knife": {
-    "criteria": {
-      "has_diamond": "2025-01-03 10:06:16 +0000"
-    },
-    "done": true
-  },
-  "bbb:recipes/jungle_lantern": {
-    "criteria": {
-      "has_torch": "2025-01-03 12:09:39 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/diamond_leggings": {
-    "criteria": {
-      "has_diamond": "2025-01-03 10:06:16 +0000"
-    },
-    "done": true
-  },
-  "decorative_blocks:recipes/decorations/chandelier": {
-    "criteria": {
-      "has_torch": "2025-01-03 12:09:39 +0000"
     },
     "done": true
   },
@@ -5771,57 +5766,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/bookshelf": {
-    "criteria": {
-      "has_book": "2025-01-03 11:24:09 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/book": {
-    "criteria": {
-      "has_paper": "2025-01-03 12:09:06 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/blue_candle": {
     "criteria": {
       "has_blue_dye": "2025-01-03 11:13:48 +0000"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/building_blocks/reinforced_chiseled_bookshelf": {
-    "criteria": {
-      "has_book": "2025-01-03 11:24:09 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/painting": {
-    "criteria": {
-      "has_wool": "2025-01-03 10:31:59 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/pumpkin_seeds": {
-    "criteria": {
-      "has_pumpkin": "2025-01-03 09:50:37 +0000"
-    },
-    "done": true
-  },
-  "bbb:recipes/warped_lantern": {
-    "criteria": {
-      "has_torch": "2025-01-03 12:09:39 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/chiseled_bookshelf": {
-    "criteria": {
-      "has_book": "2025-01-03 11:24:09 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/cooking/pumpkin_soup": {
-    "criteria": {
-      "has_any_ingredient": "2025-01-03 09:50:37 +0000"
     },
     "done": true
   },
@@ -5837,45 +5784,9 @@
     },
     "done": true
   },
-  "securitycraft:recipes/building_blocks/reinforced_bookshelf": {
-    "criteria": {
-      "has_book": "2025-01-03 11:24:09 +0000"
-    },
-    "done": true
-  },
-  "bbb:recipes/mangrove_lantern": {
-    "criteria": {
-      "has_torch": "2025-01-03 12:09:39 +0000"
-    },
-    "done": true
-  },
-  "handcrafted:recipes/misc/white_cushion": {
-    "criteria": {
-      "has_white_cushion": "2025-01-03 10:31:59 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/white_carpet": {
-    "criteria": {
-      "has_white_wool": "2025-01-03 10:31:59 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/diamond_boots": {
-    "criteria": {
-      "has_diamond": "2025-01-03 10:06:16 +0000"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/decorations/blue_stool_from_dyeing": {
     "criteria": {
       "has_dye": "2025-01-03 11:13:48 +0000"
-    },
-    "done": true
-  },
-  "bbb:recipes/birch_lantern": {
-    "criteria": {
-      "has_torch": "2025-01-03 12:09:39 +0000"
     },
     "done": true
   },
@@ -5885,45 +5796,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/white_banner": {
-    "criteria": {
-      "has_white_wool": "2025-01-03 10:31:59 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/slicing/pumpkin_seeds_from_pumpkin": {
-    "criteria": {
-      "has_pumpkin": "2025-01-03 09:50:37 +0000"
-    },
-    "done": true
-  },
-  "bbb:recipes/oak_lantern": {
-    "criteria": {
-      "has_torch": "2025-01-03 12:09:39 +0000"
-    },
-    "done": true
-  },
   "handcrafted:recipes/misc/blue_crockery_combo": {
     "criteria": {
       "has_blue_crockery_combo": "2025-01-03 11:13:48 +0000"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/misc/reinforced_lectern": {
-    "criteria": {
-      "has_bookshelf": "2025-01-03 11:38:59 +0000"
-    },
-    "done": true
-  },
-  "comforts:hammock_white": {
-    "criteria": {
-      "has_white_wool": "2025-01-03 10:31:59 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/cartography_table": {
-    "criteria": {
-      "has_paper": "2025-01-03 12:09:06 +0000"
     },
     "done": true
   },
@@ -5939,15 +5814,147 @@
     },
     "done": true
   },
-  "minecraft:recipes/tools/diamond_axe": {
-    "criteria": {
-      "has_diamond": "2025-01-03 10:06:16 +0000"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/decorations/blue_lamp_from_dyeing": {
     "criteria": {
       "has_dye": "2025-01-03 11:13:48 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/decorations/blue_kitchen_cabinetry_from_dyeing": {
+    "criteria": {
+      "has_dye": "2025-01-03 11:13:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/lectern": {
+    "criteria": {
+      "has_book": "2025-01-03 11:24:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/writable_book": {
+    "criteria": {
+      "has_book": "2025-01-03 11:24:09 +0000"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/stackable_book": {
+    "criteria": {
+      "has_stackable_book": "2025-01-03 11:24:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bookshelf": {
+    "criteria": {
+      "has_book": "2025-01-03 11:24:09 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_chiseled_bookshelf": {
+    "criteria": {
+      "has_book": "2025-01-03 11:24:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_bookshelf": {
+    "criteria": {
+      "has_book": "2025-01-03 11:24:09 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_bookshelf": {
+    "criteria": {
+      "has_book": "2025-01-03 11:24:09 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/misc/reinforced_lectern": {
+    "criteria": {
+      "has_bookshelf": "2025-01-03 11:38:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/book": {
+    "criteria": {
+      "has_paper": "2025-01-03 12:09:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cartography_table": {
+    "criteria": {
+      "has_paper": "2025-01-03 12:09:06 +0000"
+    },
+    "done": true
+  },
+  "bbb:recipes/acacia_lantern": {
+    "criteria": {
+      "has_torch": "2025-01-03 12:09:39 +0000"
+    },
+    "done": true
+  },
+  "bbb:recipes/bamboo_lantern": {
+    "criteria": {
+      "has_torch": "2025-01-03 12:09:39 +0000"
+    },
+    "done": true
+  },
+  "bbb:recipes/cherry_lantern": {
+    "criteria": {
+      "has_torch": "2025-01-03 12:09:39 +0000"
+    },
+    "done": true
+  },
+  "bbb:recipes/dark_oak_lantern": {
+    "criteria": {
+      "has_torch": "2025-01-03 12:09:39 +0000"
+    },
+    "done": true
+  },
+  "bbb:recipes/crimson_lantern": {
+    "criteria": {
+      "has_torch": "2025-01-03 12:09:39 +0000"
+    },
+    "done": true
+  },
+  "bbb:recipes/spruce_lantern": {
+    "criteria": {
+      "has_torch": "2025-01-03 12:09:39 +0000"
+    },
+    "done": true
+  },
+  "bbb:recipes/jungle_lantern": {
+    "criteria": {
+      "has_torch": "2025-01-03 12:09:39 +0000"
+    },
+    "done": true
+  },
+  "decorative_blocks:recipes/decorations/chandelier": {
+    "criteria": {
+      "has_torch": "2025-01-03 12:09:39 +0000"
+    },
+    "done": true
+  },
+  "bbb:recipes/warped_lantern": {
+    "criteria": {
+      "has_torch": "2025-01-03 12:09:39 +0000"
+    },
+    "done": true
+  },
+  "bbb:recipes/mangrove_lantern": {
+    "criteria": {
+      "has_torch": "2025-01-03 12:09:39 +0000"
+    },
+    "done": true
+  },
+  "bbb:recipes/birch_lantern": {
+    "criteria": {
+      "has_torch": "2025-01-03 12:09:39 +0000"
+    },
+    "done": true
+  },
+  "bbb:recipes/oak_lantern": {
+    "criteria": {
+      "has_torch": "2025-01-03 12:09:39 +0000"
     },
     "done": true
   },
@@ -5957,9 +5964,45 @@
     },
     "done": true
   },
-  "refurbished_furniture:recipes/decorations/blue_kitchen_cabinetry_from_dyeing": {
+  "minecraft:recipes/tools/spyglass": {
     "criteria": {
-      "has_dye": "2025-01-03 11:13:48 +0000"
+      "has_amethyst_shard": "2025-01-03 14:59:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/calibrated_sculk_sensor": {
+    "criteria": {
+      "has_amethyst_shard": "2025-01-03 14:59:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tinted_glass": {
+    "criteria": {
+      "has_amethyst_shard": "2025-01-03 14:59:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_iron_block": {
+    "criteria": {
+      "has_iron_block": "2025-01-03 16:05:35 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_tinted_glass": {
+    "criteria": {
+      "has_amethyst_shard": "2025-01-03 14:59:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/amethyst_block": {
+    "criteria": {
+      "has_amethyst_shard": "2025-01-03 14:59:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/anvil": {
+    "criteria": {
+      "has_iron_block": "2025-01-03 16:05:35 +0000"
     },
     "done": true
   },
