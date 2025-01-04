@@ -4,6 +4,44 @@
       "type": "other",
       "name": "Console"
     },
+    "time": 1735978463919,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/1UO7dnxPly"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Legendaryxxx",
+      "uniqueId": "59408d04-a5bc-4e8e-8286-8f88285f783c"
+    },
+    "time": 1735978338399,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/VHnrcDbXDD"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Legendaryxxx",
+      "uniqueId": "59408d04-a5bc-4e8e-8286-8f88285f783c"
+    },
+    "time": 1735978260577,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/N2IzI02ZJ5"
+    }
+  },
+  {
+    "user": {
+      "type": "other",
+      "name": "Console"
+    },
     "time": 1735876006205,
     "type": "Profiler (live)",
     "data": {

@@ -64,14 +64,19 @@
     "criteria": {
       "minecraft:old_growth_pine_taiga": "2025-01-02 12:06:55 +0000",
       "minecraft:taiga": "2025-01-02 12:02:13 +0000",
+      "minecraft:cherry_grove": "2025-01-04 03:13:27 +0000",
+      "minecraft:sunflower_plains": "2025-01-04 03:14:32 +0000",
       "minecraft:beach": "2025-01-02 12:07:12 +0000",
       "minecraft:dark_forest": "2025-01-02 12:00:01 +0000",
       "minecraft:river": "2025-01-02 11:59:32 +0000",
+      "minecraft:dripstone_caves": "2025-01-04 03:15:22 +0000",
       "minecraft:cold_ocean": "2025-01-02 12:07:57 +0000",
       "minecraft:forest": "2025-01-03 06:53:33 +0000",
       "minecraft:ocean": "2025-01-02 12:09:10 +0000",
       "minecraft:old_growth_spruce_taiga": "2025-01-02 12:03:24 +0000",
+      "minecraft:flower_forest": "2025-01-04 03:19:39 +0000",
       "minecraft:old_growth_birch_forest": "2025-01-02 11:46:06 +0000",
+      "minecraft:meadow": "2025-01-04 03:28:10 +0000",
       "minecraft:plains": "2025-01-03 07:00:52 +0000"
     },
     "done": false
@@ -1594,6 +1599,7 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:pillager": "2025-01-04 03:27:09 +0000",
       "minecraft:zombified_piglin": "2025-01-03 15:48:17 +0000",
       "minecraft:husk": "2025-01-03 06:36:01 +0000",
       "minecraft:zombie": "2025-01-02 12:09:54 +0000",
@@ -3466,7 +3472,8 @@
   "immersive_weathering:immersive_weathering/dirts": {
     "criteria": {
       "sandy_dirt": "2025-01-03 05:05:29 +0000",
-      "dirt": "2025-01-02 14:57:10 +0000"
+      "dirt": "2025-01-02 14:57:10 +0000",
+      "silt": "2025-01-04 04:22:17 +0000"
     },
     "done": false
   },
@@ -4464,6 +4471,7 @@
       "sugar_cane": "2025-01-03 09:37:18 +0000",
       "potato": "2025-01-02 16:04:32 +0000",
       "wheat": "2025-01-02 16:18:44 +0000",
+      "melon": "2025-01-04 03:36:14 +0000",
       "pumpkin": "2025-01-03 09:38:57 +0000",
       "carrot": "2025-01-03 03:24:21 +0000"
     },
@@ -6003,6 +6011,144 @@
   "minecraft:recipes/decorations/anvil": {
     "criteria": {
       "has_iron_block": "2025-01-03 16:05:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_bed": {
+    "criteria": {
+      "has_blue_wool": "2025-01-04 02:46:07 +0000"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/blue_sheet": {
+    "criteria": {
+      "has_blue_sheet": "2025-01-04 02:46:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_banner": {
+    "criteria": {
+      "has_blue_wool": "2025-01-04 02:46:07 +0000"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/blue_cushion": {
+    "criteria": {
+      "has_blue_cushion": "2025-01-04 02:46:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_carpet": {
+    "criteria": {
+      "has_blue_wool": "2025-01-04 02:46:07 +0000"
+    },
+    "done": true
+  },
+  "comforts:hammock_blue": {
+    "criteria": {
+      "has_blue_wool": "2025-01-04 02:46:07 +0000"
+    },
+    "done": true
+  },
+  "comforts:sleeping_bag_blue": {
+    "criteria": {
+      "has_blue_wool": "2025-01-04 02:46:07 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/grizzly_bear": {
+    "criteria": {
+      "killed_by": "2025-01-04 03:10:23 +0000"
+    },
+    "done": true
+  },
+  "lootr:50loot": {
+    "criteria": {
+      "loot_stat": "2025-01-04 03:32:31 +0000"
+    },
+    "done": true
+  },
+  "tdp.main:source": {
+    "criteria": {
+      "source": "2025-01-04 03:53:21 +0000"
+    },
+    "done": true
+  },
+  "tdp.504:entry": {
+    "criteria": {
+      "entry": "2025-01-04 03:53:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/coarse_dirt": {
+    "criteria": {
+      "has_gravel": "2025-01-04 04:22:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/fletching_table": {
+    "criteria": {
+      "has_flint": "2025-01-04 04:22:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/arrow": {
+    "criteria": {
+      "has_flint": "2025-01-04 04:22:15 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/slicing/melon_slice_from_melon": {
+    "criteria": {
+      "has_melon": "2025-01-04 04:35:13 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/melon_juice": {
+    "criteria": {
+      "has_melon_slice": "2025-01-04 04:35:18 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/melon_popsicle": {
+    "criteria": {
+      "has_melon": "2025-01-04 04:35:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/melon": {
+    "criteria": {
+      "has_melon": "2025-01-04 04:35:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/melon_seeds": {
+    "criteria": {
+      "has_melon": "2025-01-04 04:35:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/glistering_melon_slice": {
+    "criteria": {
+      "has_melon": "2025-01-04 04:35:18 +0000"
+    },
+    "done": true
+  },
+  "tdp.500:entry_feature": {
+    "criteria": {
+      "entry": "2025-01-04 05:53:36 +0000"
+    },
+    "done": true
+  },
+  "tdp.500:entry": {
+    "criteria": {
+      "entry": "2025-01-04 05:53:36 +0000"
+    },
+    "done": true
+  },
+  "tdp.500.2:entry_feature": {
+    "criteria": {
+      "entry": "2025-01-04 05:53:36 +0000"
     },
     "done": true
   },
