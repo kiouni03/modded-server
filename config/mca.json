@@ -211,10 +211,10 @@
     "sirben": "mca:shaders/post/sirben.json"
   },
   "playerRendererBlacklist": {
-    "epicfight": "all",
     "firstpersonmod": "arms",
-    "firstperson": "arms",
-    "morph": "arms"
+    "epicfight": "all",
+    "morph": "arms",
+    "firstperson": "arms"
   },
   "enabledTraits": {
     "SIRBEN": true,

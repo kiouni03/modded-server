@@ -58,8 +58,4 @@ headshotDamageModifier = 1.5
 goreEnabled = false
 #Enables advanced integraiton with Iris shaders
 advancedIrisIntegrationEnabled = true
-#Enables advanced first person animations
-firstPersonAnimationsEnabled = true
-#Enables advanced third person animations
-thirdPersonAnimationsEnabled = true
 

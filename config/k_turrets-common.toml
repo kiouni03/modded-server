@@ -9,7 +9,7 @@
 		Health = 60.0
 		#Range: 0.0 ~ 100.0
 		Armor = 3.0
-		#Range: 8.0 ~ 128.0
+		#Range: 8.0 ~ 100.0
 		Range = 32.0
 		#Range: 1 ~ 100
 		Damage = 6
@@ -17,8 +17,6 @@
 	["Turret stats"."Storage drone"]
 		#Range: 10.0 ~ 1.7976931348623157E308
 		Health = 60.0
-		#Range: 0.0 ~ 100.0
-		Armor = 0.0
 
 	["Turret stats"."Brick turret"]
 		#Range: 1 ~ 100
@@ -30,8 +28,10 @@
 		Health = 60.0
 		#Range: 0.0 ~ 100.0
 		Armor = 3.0
-		#Range: 8.0 ~ 128.0
+		#Range: 8.0 ~ 100.0
 		Range = 32.0
+		#Range: 1 ~ 100
+		"Nether brick damage" = 10
 
 	["Turret stats"."Gauss turret"]
 		#In ticks
@@ -41,7 +41,7 @@
 		Health = 60.0
 		#Range: 0.0 ~ 100.0
 		Armor = 3.0
-		#Range: 8.0 ~ 128.0
+		#Range: 8.0 ~ 100.0
 		Range = 32.0
 		#Range: 1 ~ 100
 		Damage = 12
@@ -56,7 +56,7 @@
 		Armor = 3.0
 		#Range: 1 ~ 100
 		"Base damage" = 6
-		#Range: 8.0 ~ 128.0
+		#Range: 8.0 ~ 100.0
 		Range = 32.0
 
 	["Turret stats"."Bullet turret"]
@@ -69,8 +69,10 @@
 		Armor = 3.0
 		#Range: 1 ~ 100
 		"Iron bullet damage" = 8
-		#Range: 8.0 ~ 128.0
+		#Range: 8.0 ~ 100.0
 		Range = 32.0
+		#Range: 1 ~ 100
+		"Gold bullet damage" = 7
 
 	["Turret stats"."Cobble turret"]
 		#In ticks
@@ -80,7 +82,7 @@
 		Health = 60.0
 		#Range: 0.0 ~ 100.0
 		Armor = 3.0
-		#Range: 0.0 ~ 128.0
+		#Range: 0.0 ~ 100.0
 		Range = 32.0
 		#Range: 1 ~ 100
 		Damage = 3
