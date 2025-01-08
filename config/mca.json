@@ -1,9 +1,9 @@
 {
   "README": "https://github.com/Luke100000/minecraft-comes-alive/wiki",
   "version": 1,
-  "overwriteOriginalVillagers": true,
+  "overwriteOriginalVillagers": false,
   "moddedVillagerWhitelist": [],
-  "overwriteOriginalZombieVillagers": true,
+  "overwriteOriginalZombieVillagers": false,
   "overwriteAllZombiesWithZombieVillagers": false,
   "moddedZombieVillagerWhitelist": [],
   "babyZombieChance": 0.25,
