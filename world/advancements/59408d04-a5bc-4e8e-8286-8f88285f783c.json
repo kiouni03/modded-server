@@ -102,6 +102,7 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:zoglin": "2025-01-08 11:19:04 +0000",
+      "minecraft:phantom": "2025-01-10 11:12:09 +0000",
       "minecraft:zombified_piglin": "2025-01-08 11:15:47 +0000",
       "minecraft:husk": "2025-01-07 17:22:21 +0000",
       "minecraft:zombie": "2025-01-07 05:36:52 +0000",
@@ -7495,12 +7496,6 @@
     },
     "done": false
   },
-  "minecraft:recipes/misc/map": {
-    "criteria": {
-      "has_compass": "2025-01-10 10:45:21 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/conduit": {
     "criteria": {
       "has_nautilus_shell": "2025-01-10 10:28:43 +0000"
@@ -7510,6 +7505,18 @@
   "minecraft:recipes/misc/mojang_banner_pattern": {
     "criteria": {
       "has_enchanted_golden_apple": "2025-01-10 10:43:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/map": {
+    "criteria": {
+      "has_compass": "2025-01-10 10:45:21 +0000"
+    },
+    "done": true
+  },
+  "the_deep_void:bone_bottom": {
+    "criteria": {
+      "bone_bottom_0": "2025-01-10 10:56:14 +0000"
     },
     "done": true
   },
