@@ -74,6 +74,7 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:deep_ocean": "2025-01-10 10:22:54 +0000",
       "minecraft:birch_forest": "2025-01-07 07:54:56 +0000",
       "minecraft:windswept_hills": "2025-01-07 07:58:26 +0000",
       "minecraft:bamboo_jungle": "2025-01-07 07:54:27 +0000",
@@ -7493,6 +7494,24 @@
       "in_better_zombie_dungeon": "2025-01-09 12:16:16 +0000"
     },
     "done": false
+  },
+  "minecraft:recipes/misc/map": {
+    "criteria": {
+      "has_compass": "2025-01-10 10:45:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/conduit": {
+    "criteria": {
+      "has_nautilus_shell": "2025-01-10 10:28:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/mojang_banner_pattern": {
+    "criteria": {
+      "has_enchanted_golden_apple": "2025-01-10 10:43:42 +0000"
+    },
+    "done": true
   },
   "DataVersion": 3465
 }
