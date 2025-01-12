@@ -4,7 +4,7 @@
     "isWhitelist": false
   },
   "trackCount": 32,
-  "resetOnDeath": true,
+  "resetOnDeath": false,
   "limitProgressionToSurvival": false,
   "minFoodsToActivate": 0,
   "benefits": [
