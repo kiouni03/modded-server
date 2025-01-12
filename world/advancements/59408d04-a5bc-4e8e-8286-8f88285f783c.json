@@ -94,6 +94,7 @@
       "minecraft:jungle": "2025-01-07 06:51:17 +0000",
       "minecraft:ocean": "2025-01-07 07:55:01 +0000",
       "minecraft:windswept_savanna": "2025-01-12 04:34:35 +0000",
+      "minecraft:warm_ocean": "2025-01-12 15:33:38 +0000",
       "minecraft:deep_lukewarm_ocean": "2025-01-07 07:49:21 +0000",
       "minecraft:flower_forest": "2025-01-12 04:33:00 +0000",
       "minecraft:old_growth_birch_forest": "2025-01-07 07:55:50 +0000",
@@ -110,6 +111,7 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:pillager": "2025-01-12 16:35:15 +0000",
       "minecraft:zoglin": "2025-01-08 11:19:04 +0000",
       "minecraft:phantom": "2025-01-10 11:12:09 +0000",
       "minecraft:zombified_piglin": "2025-01-08 11:15:47 +0000",
@@ -518,11 +520,13 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "cooked_porkchop": "2025-01-12 16:45:16 +0000",
       "cooked_beef": "2025-01-12 05:03:20 +0000",
       "cooked_cod": "2025-01-12 03:31:47 +0000",
       "pumpkin_pie": "2025-01-12 11:56:58 +0000",
       "bread": "2025-01-07 05:37:55 +0000",
       "golden_apple": "2025-01-08 13:53:25 +0000",
+      "suspicious_stew": "2025-01-12 16:27:26 +0000",
       "golden_carrot": "2025-01-07 15:21:42 +0000",
       "cooked_chicken": "2025-01-12 05:04:01 +0000",
       "rabbit_stew": "2025-01-12 03:37:53 +0000",
@@ -8480,19 +8484,73 @@
     },
     "done": true
   },
-  "farmersdelight:recipes/food/egg_sandwich": {
-    "criteria": {
-      "has_fried_egg": "2025-01-12 11:25:22 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/birch_crate": {
-    "criteria": {
-      "has_birch_planks": "2025-01-12 11:59:06 +0000"
-    },
-    "done": true
-  },
   "farmersdelight:recipes/decorations/basket": {
+    "criteria": {
+      "has_canvas": "2025-01-12 11:07:58 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/misc/book_from_canvas": {
+    "criteria": {
+      "has_canvas": "2025-01-12 11:07:58 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/full_tatami_mat_from_halves": {
+    "criteria": {
+      "has_canvas": "2025-01-12 11:07:58 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/hanging_canvas_sign": {
+    "criteria": {
+      "has_canvas": "2025-01-12 11:07:58 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/canvas_rug": {
+    "criteria": {
+      "has_canvas": "2025-01-12 11:07:58 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/building_blocks/tatami_block_from_full": {
+    "criteria": {
+      "has_canvas": "2025-01-12 11:07:58 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/full_tatami_mat": {
+    "criteria": {
+      "has_canvas": "2025-01-12 11:07:58 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/half_tatami_mat": {
+    "criteria": {
+      "has_canvas": "2025-01-12 11:07:58 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/building_blocks/tatami": {
+    "criteria": {
+      "has_canvas": "2025-01-12 11:07:58 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/canvas_sign": {
+    "criteria": {
+      "has_canvas": "2025-01-12 11:07:58 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/painting_from_canvas": {
+    "criteria": {
+      "has_canvas": "2025-01-12 11:07:58 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/scaffolding_from_canvas": {
     "criteria": {
       "has_canvas": "2025-01-12 11:07:58 +0000"
     },
@@ -8501,6 +8559,42 @@
   "minecraft:recipes/food/cooked_chicken_from_campfire_cooking": {
     "criteria": {
       "has_chicken": "2025-01-12 11:19:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken_from_smoking": {
+    "criteria": {
+      "has_chicken": "2025-01-12 11:19:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken": {
+    "criteria": {
+      "has_chicken": "2025-01-12 11:19:56 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/egg_sandwich": {
+    "criteria": {
+      "has_fried_egg": "2025-01-12 11:25:22 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/hamburger": {
+    "criteria": {
+      "has_beef_patty": "2025-01-12 11:33:46 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/rice_from_bag": {
+    "criteria": {
+      "has_rice_bag": "2025-01-12 11:49:53 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/birch_crate": {
+    "criteria": {
+      "has_birch_planks": "2025-01-12 11:59:06 +0000"
     },
     "done": true
   },
@@ -8546,12 +8640,6 @@
     },
     "done": true
   },
-  "farmersdelight:recipes/food/cabbage_from_leaves": {
-    "criteria": {
-      "has_cabbage_leaf": "2025-01-12 12:29:49 +0000"
-    },
-    "done": true
-  },
   "handcrafted:recipes/misc/birch_nightstand": {
     "criteria": {
       "has_birch_nightstand": "2025-01-12 11:59:06 +0000"
@@ -8582,12 +8670,6 @@
     },
     "done": true
   },
-  "farmersdelight:recipes/misc/book_from_canvas": {
-    "criteria": {
-      "has_canvas": "2025-01-12 11:07:58 +0000"
-    },
-    "done": true
-  },
   "mighty_mail:recipes/decorations/birch_mail_box": {
     "criteria": {
       "has_planks": "2025-01-12 11:59:06 +0000"
@@ -8612,39 +8694,15 @@
     },
     "done": true
   },
-  "farmersdelight:recipes/food/hamburger": {
-    "criteria": {
-      "has_beef_patty": "2025-01-12 11:33:46 +0000"
-    },
-    "done": true
-  },
   "handcrafted:recipes/misc/birch_cupboard": {
     "criteria": {
       "has_birch_cupboard": "2025-01-12 11:59:06 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/food/cooked_chicken_from_smoking": {
-    "criteria": {
-      "has_chicken": "2025-01-12 11:19:56 +0000"
-    },
-    "done": true
-  },
   "handcrafted:recipes/misc/birch_side_table": {
     "criteria": {
       "has_birch_side_table": "2025-01-12 11:59:06 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/decorations/full_tatami_mat_from_halves": {
-    "criteria": {
-      "has_canvas": "2025-01-12 11:07:58 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/decorations/hanging_canvas_sign": {
-    "criteria": {
-      "has_canvas": "2025-01-12 11:07:58 +0000"
     },
     "done": true
   },
@@ -8657,18 +8715,6 @@
   "handcrafted:recipes/misc/birch_counter": {
     "criteria": {
       "has_birch_counter": "2025-01-12 11:59:06 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/decorations/canvas_rug": {
-    "criteria": {
-      "has_canvas": "2025-01-12 11:07:58 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/building_blocks/tatami_block_from_full": {
-    "criteria": {
-      "has_canvas": "2025-01-12 11:07:58 +0000"
     },
     "done": true
   },
@@ -8690,24 +8736,6 @@
     },
     "done": true
   },
-  "farmersdelight:recipes/food/rice_from_bag": {
-    "criteria": {
-      "has_rice_bag": "2025-01-12 11:49:53 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/decorations/full_tatami_mat": {
-    "criteria": {
-      "has_canvas": "2025-01-12 11:07:58 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/decorations/half_tatami_mat": {
-    "criteria": {
-      "has_canvas": "2025-01-12 11:07:58 +0000"
-    },
-    "done": true
-  },
   "bbb:recipes/birch_support": {
     "criteria": {
       "has_block": "2025-01-12 11:59:06 +0000"
@@ -8717,18 +8745,6 @@
   "handcrafted:recipes/misc/birch_couch": {
     "criteria": {
       "has_birch_couch": "2025-01-12 11:59:06 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_chicken": {
-    "criteria": {
-      "has_chicken": "2025-01-12 11:19:56 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/building_blocks/tatami": {
-    "criteria": {
-      "has_canvas": "2025-01-12 11:07:58 +0000"
     },
     "done": true
   },
@@ -8786,29 +8802,11 @@
     },
     "done": true
   },
-  "farmersdelight:recipes/decorations/canvas_sign": {
-    "criteria": {
-      "has_canvas": "2025-01-12 11:07:58 +0000"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/misc/constructing/birch_kitchen_storage_cabinet": {
     "criteria": {
       "has_birch_planks": "2025-01-12 11:59:06 +0000"
     },
     "done": true
-  },
-  "farmersdelight:recipes/decorations/painting_from_canvas": {
-    "criteria": {
-      "has_canvas": "2025-01-12 11:07:58 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:main/master_chef": {
-    "criteria": {
-      "fried_rice": "2025-01-12 12:04:02 +0000"
-    },
-    "done": false
   },
   "minecraft:recipes/redstone/birch_trapdoor": {
     "criteria": {
@@ -8819,12 +8817,6 @@
   "handcrafted:recipes/misc/birch_bench": {
     "criteria": {
       "has_birch_bench": "2025-01-12 11:59:06 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/decorations/scaffolding_from_canvas": {
-    "criteria": {
-      "has_canvas": "2025-01-12 11:07:58 +0000"
     },
     "done": true
   },
@@ -8843,6 +8835,117 @@
   "minecraft:recipes/redstone/birch_pressure_plate": {
     "criteria": {
       "has_planks": "2025-01-12 11:59:06 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:main/master_chef": {
+    "criteria": {
+      "ratatouille": "2025-01-12 17:43:50 +0000",
+      "roasted_mutton_chops": "2025-01-12 14:57:40 +0000",
+      "roast_chicken": "2025-01-12 17:48:27 +0000",
+      "fried_rice": "2025-01-12 12:04:02 +0000"
+    },
+    "done": false
+  },
+  "farmersdelight:recipes/food/cabbage_from_leaves": {
+    "criteria": {
+      "has_cabbage_leaf": "2025-01-12 12:29:49 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/steak_and_potatoes": {
+    "criteria": {
+      "has_baked_potato": "2025-01-12 17:46:46 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/alligator_snapping_turtle": {
+    "criteria": {
+      "killed": "2025-01-12 17:14:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_smoking": {
+    "criteria": {
+      "has_kelp": "2025-01-12 17:03:01 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/hot_cocoa": {
+    "criteria": {
+      "has_any_ingredient": "2025-01-12 18:20:04 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/cooked_mutton_chops_from_campfire_cooking": {
+    "criteria": {
+      "cooked_mutton_chops": "2025-01-12 18:22:24 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/milk_bottle": {
+    "criteria": {
+      "has_milk_bucket": "2025-01-12 18:20:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_smelting": {
+    "criteria": {
+      "has_kelp": "2025-01-12 17:03:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_campfire_cooking": {
+    "criteria": {
+      "has_kelp": "2025-01-12 17:03:01 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/cooked_mutton_chops": {
+    "criteria": {
+      "cooked_mutton_chops": "2025-01-12 18:22:24 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/tame_mantis_shrimp": {
+    "criteria": {
+      "tame": "2025-01-12 15:49:07 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:main/place_feast": {
+    "criteria": {
+      "roast_chicken": "2025-01-12 17:47:57 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/cooked_mutton_chops_from_smoking": {
+    "criteria": {
+      "cooked_mutton_chops": "2025-01-12 18:22:24 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/food/cheese": {
+    "criteria": {
+      "has_milk": "2025-01-12 18:20:04 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:main/eat_nourishing_food": {
+    "criteria": {
+      "nourishment": "2025-01-12 14:57:40 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/stuffed_potato": {
+    "criteria": {
+      "has_baked_potato": "2025-01-12 17:46:46 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/mantis_shrimp_bucket": {
+    "criteria": {
+      "tame": "2025-01-12 16:21:06 +0000"
     },
     "done": true
   },
